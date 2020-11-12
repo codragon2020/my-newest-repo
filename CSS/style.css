@@ -1,0 +1,110 @@
+
+/*
+  NOTE: Commenting is a bit different in CSS. 
+  They start with forward-slash + asterisk 
+  and end with back-slash + asterisk.
+  */
+/* h1 heading tag */
+
+body {
+  background-color: #efeee7;
+  font-family: Georgia,"Times New Roman",Times,serif;
+  color: #333333;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333333;
+  margin-top: 20px;
+  border: 20px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+#main-bio, #contact-info, #bio-image {
+  float: left;
+}
+
+#bio-image {
+  width: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+  line-height: 1.5;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; 
+  background-color: black;
+  /* block-size: 70px; */
+}
+/* h2 heading tags */
+
+h2 {
+  /* Put a 15-pixel margin at the top of all h2 headings. */
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  font-size: 24px;
+  text-align: left;;
+}
+/* h3 heading tags */
+
+h3 {
+  margin-top: 15px;
+  font-size: 20px;
+  text-align: center;
+}
+/* All img tags */
+
+img {
+  /* 
+    Center a block element in the middle of its enclosing tag.
+    When you use the "auto" rule on both left and right margins, 
+    your browser will do the math necessary to center a block element.
+    */
+  margin-left: auto;
+  margin-right: auto;
+  /* Block display (more on this later) */
+  display: block;
+}
+/* All p tags */
+
+p {
+  text-align: left;
+  font-size: 13px;
+  /* Bold the text. */
+  font-weight: bold;
+}
+/* All unordered list tags */
+
+ul {
+  text-align: left;
+  font-size: 13px;
+  /* Include bullets in the content flow. */
+  /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
+  list-style-position: inside;
+}
+
+a {
+  color: #d21034
+}
+
